@@ -192,6 +192,11 @@ namespace SUPER_HERO_OBSTACLE_COURSE
             GameReset();
             GameScreen.Focus();
         }
+
+        private void button2_MouseClick(object sender, MouseEventArgs e)
+        {
+            Application.Exit();
+        }
     }
         }
     

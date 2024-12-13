@@ -41,6 +41,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.obstacle_2 = new System.Windows.Forms.PictureBox();
             this.batman = new System.Windows.Forms.PictureBox();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.obstacle_3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.obstacle)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -178,6 +179,18 @@
             this.batman.TabStop = false;
             this.batman.Click += new System.EventHandler(this.pictureBox5_Click_1);
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(1390, -7);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(58, 49);
+            this.button2.TabIndex = 14;
+            this.button2.Text = "EXIT";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.keyisdown);
+            this.button2.KeyUp += new System.Windows.Forms.KeyEventHandler(this.keyisup);
+            this.button2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.button2_MouseClick);
+            // 
             // GamePlay
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -185,6 +198,7 @@
             this.BackColor = System.Drawing.Color.Black;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1447, 588);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtScore);
             this.Controls.Add(this.obstacle_3);
@@ -227,6 +241,7 @@
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox obstacle;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
 
