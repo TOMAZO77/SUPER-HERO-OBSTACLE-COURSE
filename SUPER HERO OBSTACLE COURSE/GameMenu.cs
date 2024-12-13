@@ -35,6 +35,12 @@ namespace SUPER_HERO_OBSTACLE_COURSE
             this.Hide();
             GamePlay GameScreen = new GamePlay();
             GameScreen.Show();
+            GameScreen.Focus();
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
 
         }
     }

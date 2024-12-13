@@ -27,7 +27,7 @@ namespace SUPER_HERO_OBSTACLE_COURSE
         public GamePlay()
         {
             InitializeComponent();
-
+            
             GameReset();
         }
 
@@ -180,23 +180,19 @@ namespace SUPER_HERO_OBSTACLE_COURSE
 
         private void GamePlay_Load(object sender, EventArgs e)
         {
-
+           
         }
 
-    
-
-       
-
-        private void back(object sender, MouseEventArgs e)
+        
+        private void button1_MouseClick(object sender, MouseEventArgs e)
         {
             GameMenu GameScreen = new GameMenu();
-
-
             this.Hide();
-            GameReset();
             GameScreen.Show();
+            GameReset();
             GameScreen.Focus();
         }
     }
-    }
+        }
+    
 
