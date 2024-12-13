@@ -73,6 +73,16 @@ namespace SUPER_HERO_OBSTACLE_COURSE.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BAT_CROPPED {
+            get {
+                object obj = ResourceManager.GetObject("BAT CROPPED", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bat_signal {
             get {
                 object obj = ResourceManager.GetObject("bat signal", resourceCulture);
@@ -86,6 +96,16 @@ namespace SUPER_HERO_OBSTACLE_COURSE.Properties {
         internal static System.Drawing.Bitmap batman {
             get {
                 object obj = ResourceManager.GetObject("batman", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap batman_ezgif_com_crop {
+            get {
+                object obj = ResourceManager.GetObject("batman-ezgif.com-crop", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -126,6 +146,16 @@ namespace SUPER_HERO_OBSTACLE_COURSE.Properties {
         internal static System.Drawing.Bitmap car {
             get {
                 object obj = ResourceManager.GetObject("car", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap CAR_CROPPED {
+            get {
+                object obj = ResourceManager.GetObject("CAR CROPPED", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -316,6 +346,16 @@ namespace SUPER_HERO_OBSTACLE_COURSE.Properties {
         internal static System.Drawing.Bitmap rocks {
             get {
                 object obj = ResourceManager.GetObject("rocks", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap rocks_ezgif_com_crop {
+            get {
+                object obj = ResourceManager.GetObject("rocks-ezgif.com-crop", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

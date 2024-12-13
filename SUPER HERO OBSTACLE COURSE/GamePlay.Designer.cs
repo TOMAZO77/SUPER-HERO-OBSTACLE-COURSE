@@ -32,6 +32,7 @@
             this.gameTimer = new System.Windows.Forms.Timer(this.components);
             this.txtScore = new System.Windows.Forms.Label();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.button1 = new System.Windows.Forms.Button();
             this.obstacle_3 = new System.Windows.Forms.PictureBox();
             this.obstacle = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
@@ -40,7 +41,6 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.obstacle_2 = new System.Windows.Forms.PictureBox();
             this.batman = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.obstacle_3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.obstacle)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -69,13 +69,25 @@
             this.txtScore.Text = "Score: 0";
             this.txtScore.Click += new System.EventHandler(this.label1_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(8, 36);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(91, 23);
+            this.button1.TabIndex = 13;
+            this.button1.Text = "< Go Back";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.keyisdown);
+            this.button1.KeyUp += new System.Windows.Forms.KeyEventHandler(this.keyisup);
+            this.button1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.button1_MouseClick);
+            // 
             // obstacle_3
             // 
             this.obstacle_3.BackColor = System.Drawing.Color.Transparent;
-            this.obstacle_3.Image = global::SUPER_HERO_OBSTACLE_COURSE.Properties.Resources.car;
-            this.obstacle_3.Location = new System.Drawing.Point(814, 440);
+            this.obstacle_3.Image = global::SUPER_HERO_OBSTACLE_COURSE.Properties.Resources.CAR_CROPPED;
+            this.obstacle_3.Location = new System.Drawing.Point(813, 514);
             this.obstacle_3.Name = "obstacle_3";
-            this.obstacle_3.Size = new System.Drawing.Size(226, 188);
+            this.obstacle_3.Size = new System.Drawing.Size(226, 75);
             this.obstacle_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.obstacle_3.TabIndex = 1;
             this.obstacle_3.TabStop = false;
@@ -85,9 +97,9 @@
             // 
             this.obstacle.BackColor = System.Drawing.Color.Transparent;
             this.obstacle.Image = global::SUPER_HERO_OBSTACLE_COURSE.Properties.Resources.bat;
-            this.obstacle.Location = new System.Drawing.Point(1344, 514);
+            this.obstacle.Location = new System.Drawing.Point(1348, 514);
             this.obstacle.Name = "obstacle";
-            this.obstacle.Size = new System.Drawing.Size(62, 62);
+            this.obstacle.Size = new System.Drawing.Size(62, 53);
             this.obstacle.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.obstacle.TabIndex = 12;
             this.obstacle.TabStop = false;
@@ -97,9 +109,9 @@
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox5.Image = global::SUPER_HERO_OBSTACLE_COURSE.Properties.Resources.bat;
-            this.pictureBox5.Location = new System.Drawing.Point(700, 354);
+            this.pictureBox5.Location = new System.Drawing.Point(704, 354);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(62, 62);
+            this.pictureBox5.Size = new System.Drawing.Size(62, 53);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox5.TabIndex = 11;
             this.pictureBox5.TabStop = false;
@@ -108,10 +120,10 @@
             // pictureBox4
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox4.Image = global::SUPER_HERO_OBSTACLE_COURSE.Properties.Resources.bat;
-            this.pictureBox4.Location = new System.Drawing.Point(1364, 366);
+            this.pictureBox4.Image = global::SUPER_HERO_OBSTACLE_COURSE.Properties.Resources.BAT_CROPPED;
+            this.pictureBox4.Location = new System.Drawing.Point(1368, 366);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(62, 62);
+            this.pictureBox4.Size = new System.Drawing.Size(62, 53);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 10;
             this.pictureBox4.TabStop = false;
@@ -133,9 +145,9 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::SUPER_HERO_OBSTACLE_COURSE.Properties.Resources.bat;
-            this.pictureBox1.Location = new System.Drawing.Point(216, 514);
+            this.pictureBox1.Location = new System.Drawing.Point(220, 514);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(62, 62);
+            this.pictureBox1.Size = new System.Drawing.Size(62, 53);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
@@ -145,7 +157,7 @@
             // obstacle_2
             // 
             this.obstacle_2.BackColor = System.Drawing.Color.Transparent;
-            this.obstacle_2.Image = global::SUPER_HERO_OBSTACLE_COURSE.Properties.Resources.rocks;
+            this.obstacle_2.Image = global::SUPER_HERO_OBSTACLE_COURSE.Properties.Resources.rocks_ezgif_com_crop;
             this.obstacle_2.Location = new System.Drawing.Point(442, 482);
             this.obstacle_2.Name = "obstacle_2";
             this.obstacle_2.Size = new System.Drawing.Size(155, 121);
@@ -157,7 +169,7 @@
             // batman
             // 
             this.batman.BackColor = System.Drawing.Color.Transparent;
-            this.batman.Image = global::SUPER_HERO_OBSTACLE_COURSE.Properties.Resources.batman;
+            this.batman.Image = global::SUPER_HERO_OBSTACLE_COURSE.Properties.Resources.batman_ezgif_com_crop;
             this.batman.Location = new System.Drawing.Point(-13, 456);
             this.batman.Name = "batman";
             this.batman.Size = new System.Drawing.Size(185, 152);
@@ -165,18 +177,6 @@
             this.batman.TabIndex = 4;
             this.batman.TabStop = false;
             this.batman.Click += new System.EventHandler(this.pictureBox5_Click_1);
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(8, 36);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(91, 23);
-            this.button1.TabIndex = 13;
-            this.button1.Text = "< Go Back";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.keyisdown);
-            this.button1.KeyUp += new System.Windows.Forms.KeyEventHandler(this.keyisup);
-            this.button1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.button1_MouseClick);
             // 
             // GamePlay
             // 

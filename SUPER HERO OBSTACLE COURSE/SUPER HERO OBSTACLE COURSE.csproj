@@ -114,6 +114,10 @@
     <None Include="Resources\goback.png" />
     <None Include="Resources\goback2.png" />
     <None Include="Resources\goback3.png" />
+    <None Include="Resources\batman-ezgif.com-crop.gif" />
+    <None Include="Resources\BAT CROPPED.gif" />
+    <None Include="Resources\rocks-ezgif.com-crop.png" />
+    <None Include="Resources\CAR CROPPED.png" />
     <Content Include="Resources\theme.wav" />
     <Content Include="theme.wav" />
     <None Include="Resources\snowing.gif" />
