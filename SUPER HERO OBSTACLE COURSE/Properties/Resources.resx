@@ -124,6 +124,9 @@
   <data name="GameMenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\GameMenu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="1000_F_254986313_dkkiHOxxz63vGHxgDjRERs6JqvthiyzB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1000_F_254986313_dkkiHOxxz63vGHxgDjRERs6JqvthiyzB.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="nightsky" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\nightsky.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -145,6 +148,9 @@
   <data name="batman" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\batman.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="dead" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dead1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="floor2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\floor2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -154,8 +160,8 @@
   <data name="floor" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\floor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="harley" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\harley.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="obsticle5GHOST" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\obsticle5GHOST.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="goback2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\goback2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -172,14 +178,17 @@
   <data name="goback3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\goback3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="obstacle_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\obstacle_1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="layer_1_ground1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\layer_1_ground1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="batman-ezgif.com-crop" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\batman-ezgif.com-crop.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="dead" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\dead1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="obstacle_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\obstacle_1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CAR CROPPED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CAR CROPPED.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="clouds" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\clouds.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -193,11 +202,20 @@
   <data name="goback" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\goback.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="layer_1_ground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\layer_1_ground.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="rocks-ezgif.com-crop" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\rocks-ezgif.com-crop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="obsticle5-ezgif.com-crop_b355" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\obsticle5-ezgif.com-crop_b355.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="obsticle-6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\obsticle-6.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bgPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bgPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="buttons" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\buttons.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -205,13 +223,19 @@
   <data name="gotham" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\gotham.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="pixelaate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pixelaate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="harley" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\harley.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="running" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\running1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bat signal" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bat signal.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="CAR CROPPED" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\CAR CROPPED.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pixelaate1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pixelaate1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -62,6 +62,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="GamePlay.resx">
       <DependentUpon>GamePlay.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="GameMenu.resx">
       <DependentUpon>GameMenu.cs</DependentUpon>
@@ -118,6 +119,14 @@
     <None Include="Resources\BAT CROPPED.gif" />
     <None Include="Resources\rocks-ezgif.com-crop.png" />
     <None Include="Resources\CAR CROPPED.png" />
+    <None Include="Resources\layer_1_ground.png" />
+    <None Include="Resources\layer_1_ground1.png" />
+    <None Include="Resources\1000_F_254986313_dkkiHOxxz63vGHxgDjRERs6JqvthiyzB.jpg" />
+    <None Include="Resources\bgPixels.png" />
+    <None Include="Resources\obsticle5-ezgif.com-crop_b355.gif" />
+    <None Include="Resources\obsticle5GHOST.gif" />
+    <None Include="Resources\pixelaate.png" />
+    <None Include="Resources\pixelaate1.png" />
     <Content Include="Resources\theme.wav" />
     <Content Include="theme.wav" />
     <None Include="Resources\snowing.gif" />

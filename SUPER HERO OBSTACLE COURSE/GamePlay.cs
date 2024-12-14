@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Drawing2D;
+using System.Drawing.Text;
 using System.Linq;
 using System.Media;
 using System.Text;
@@ -22,15 +24,16 @@ namespace SUPER_HERO_OBSTACLE_COURSE
         int position;
         bool isGameOver = false;
         
-
         
+
         public GamePlay()
         {
             InitializeComponent();
-            
+           
             GameReset();
         }
-
+        
+            
         private void pictureBox4_Click(object sender, EventArgs e)
         {
 
@@ -63,10 +66,10 @@ namespace SUPER_HERO_OBSTACLE_COURSE
                 jumpSpeed = 12;
             }
 
-            if (batman.Top > 456 && jumping == false)
+            if (batman.Top > 529 && jumping == false)
             {
                 force = 40;
-                batman.Top = 457;
+                batman.Top = 529;
                 jumpSpeed = 7;
             }
 
@@ -128,13 +131,13 @@ namespace SUPER_HERO_OBSTACLE_COURSE
             txtScore.Text = "Score: " + score;
             batman.Image = Properties.Resources.running;
             isGameOver = true;
-            batman.Top = 456;
+            batman.Top = 529;
 
             foreach (Control x in this.Controls)
             {
                 if (x is PictureBox && (string)x.Tag == "obstacle")
                 {
-                    position = this.ClientSize.Width + rand.Next(600, 900) + (x.Width * 15);
+                    position = this.ClientSize.Width + rand.Next(500, 1500) + (x.Width * 15);
                     x.Left = position;
                 }
             }

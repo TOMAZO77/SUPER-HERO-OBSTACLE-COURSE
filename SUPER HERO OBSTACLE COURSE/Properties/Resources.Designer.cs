@@ -63,6 +63,16 @@ namespace SUPER_HERO_OBSTACLE_COURSE.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1000_F_254986313_dkkiHOxxz63vGHxgDjRERs6JqvthiyzB {
+            get {
+                object obj = ResourceManager.GetObject("1000_F_254986313_dkkiHOxxz63vGHxgDjRERs6JqvthiyzB", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bat {
             get {
                 object obj = ResourceManager.GetObject("bat", resourceCulture);
@@ -116,6 +126,16 @@ namespace SUPER_HERO_OBSTACLE_COURSE.Properties {
         internal static System.Drawing.Bitmap batman_smoke_signal {
             get {
                 object obj = ResourceManager.GetObject("batman-smoke-signal", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bgPixels {
+            get {
+                object obj = ResourceManager.GetObject("bgPixels", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -273,6 +293,26 @@ namespace SUPER_HERO_OBSTACLE_COURSE.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap layer_1_ground {
+            get {
+                object obj = ResourceManager.GetObject("layer_1_ground", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap layer_1_ground1 {
+            get {
+                object obj = ResourceManager.GetObject("layer_1_ground1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap nightsky {
             get {
                 object obj = ResourceManager.GetObject("nightsky", resourceCulture);
@@ -333,9 +373,49 @@ namespace SUPER_HERO_OBSTACLE_COURSE.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap obsticle5_ezgif_com_crop_b355 {
+            get {
+                object obj = ResourceManager.GetObject("obsticle5-ezgif.com-crop_b355", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap obsticle51 {
             get {
                 object obj = ResourceManager.GetObject("obsticle51", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap obsticle5GHOST {
+            get {
+                object obj = ResourceManager.GetObject("obsticle5GHOST", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pixelaate {
+            get {
+                object obj = ResourceManager.GetObject("pixelaate", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pixelaate1 {
+            get {
+                object obj = ResourceManager.GetObject("pixelaate1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
