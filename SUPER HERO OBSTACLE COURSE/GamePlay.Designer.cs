@@ -155,7 +155,7 @@
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = global::SUPER_HERO_OBSTACLE_COURSE.Properties.Resources.obsticle5GHOST;
-            this.pictureBox2.Location = new System.Drawing.Point(1176, 465);
+            this.pictureBox2.Location = new System.Drawing.Point(1179, 511);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(95, 136);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
