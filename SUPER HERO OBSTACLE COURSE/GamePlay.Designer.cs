@@ -45,6 +45,7 @@
             this.batman = new System.Windows.Forms.PictureBox();
             this.hitBox = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.obstacle_3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.obstacle)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -219,6 +220,18 @@
             this.pictureBox3.TabIndex = 17;
             this.pictureBox3.TabStop = false;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Consolas", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Green;
+            this.label1.Location = new System.Drawing.Point(538, 10);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(299, 32);
+            this.label1.TabIndex = 18;
+            this.label1.Text = "press [B] to shoot!";
+            // 
             // GamePlay
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -227,6 +240,7 @@
             this.BackgroundImage = global::SUPER_HERO_OBSTACLE_COURSE.Properties.Resources.bgPixels;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1447, 761);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -281,6 +295,7 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.PictureBox hitBox;
         private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Label label1;
     }
 }
 

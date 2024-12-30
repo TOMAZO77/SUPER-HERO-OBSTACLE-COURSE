@@ -127,7 +127,6 @@
     <None Include="Resources\obsticle5GHOST.gif" />
     <None Include="Resources\pixelaate.png" />
     <None Include="Resources\pixelaate1.png" />
-    <Content Include="Resources\theme.wav" />
     <Content Include="theme.wav" />
     <None Include="Resources\snowing.gif" />
     <None Include="Resources\bat.gif" />
